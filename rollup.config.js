@@ -1,6 +1,7 @@
 import svelte from 'rollup-plugin-svelte';
 import resolve from '@rollup/plugin-node-resolve';
 import pkg from './package.json';
+import { terser } from 'rollup-plugin-terser';
 
 const name = pkg.name
 	.replace(/^(@\S+\/)?(svelte-)?(\S+)/, '$3')
@@ -15,6 +16,8 @@ export default {
 	],
 	plugins: [
 		svelte({customElement: true}),
-		resolve()
+		resolve(),
+		// activate Terser if you want the generated JS to be minified
+		// terser()
 	],
 };

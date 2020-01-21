@@ -1,6 +1,6 @@
-# component-template
+# Svelte custom elements starter template
 
-A base for building shareable Custom elements using Svelte. Clone it with [degit](https://github.com/Rich-Harris/degit):
+A base for building shareable custom elements using Svelte. Clone it with [degit](https://github.com/Rich-Harris/degit):
 
 ```bash
 npx degit andifined-de/component-template my-new-component
