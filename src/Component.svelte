@@ -18,3 +18,12 @@
 </script>
 
 <div on:click="{dispatchCustomEvent}">{someattribute}</div>
+
+<style>
+  :host {
+    display: block;
+  }
+  :host([hidden]) {
+    display: none;
+  }
+</style>
