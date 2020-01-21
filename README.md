@@ -3,7 +3,7 @@
 A base for building shareable custom elements using Svelte. Clone it with [degit](https://github.com/Rich-Harris/degit):
 
 ```bash
-npx degit andifined-de/component-template my-new-component
+npx degit andifined-de/svelte-custom-elements-starter my-new-component
 cd my-new-component
 npm install # or yarn
 ```
@@ -16,7 +16,6 @@ TODO
 
 * [ ] some firm opinions about the best way to test components
 * [ ] update `degit` so that it automates some of the setup work
-* [ ] Minimize generated code
 
 ## Consuming components
 
