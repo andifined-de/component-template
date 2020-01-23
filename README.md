@@ -5,17 +5,13 @@ A base for building shareable custom elements using Svelte. Clone it with [degit
 ```bash
 npx degit andifined-de/svelte-custom-elements-starter my-new-component
 cd my-new-component
+npm init
 npm install # or yarn
 ```
 
 Your component's source code lives in `src/Component.svelte`.
 
 You can create a package that exports multiple components by adding them to the `src` directory and editing `src/index.js` to reexport them as named exports.
-
-TODO
-
-* [ ] some firm opinions about the best way to test components
-* [ ] update `degit` so that it automates some of the setup work
 
 ## Consuming components
 
