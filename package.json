@@ -1,9 +1,4 @@
 {
-  "name": "svelte-custom-elements-starter",
-  "version": "1.0.0",
-  "repository": "https://github.com/andifined-de/svelte-custom-elements-starter.git",
-  "author": "Andreas Lemburg",
-  "license": "MIT",
   "svelte": "src/index.js",
   "module": "dist/index.mjs",
   "main": "dist/index.js",
